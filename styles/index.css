@@ -28,3 +28,24 @@ article {
 #ext {
     padding: 10px;
 }
+
+@media screen and (max-width: 900px) {
+    article {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #mainembed {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 500px) {
+    article {
+        width: 94%;
+        margin-left: 3%;
+    }
+    #mainembed {
+        width: 94%;
+        margin-left: 3%;
+    }
+}
