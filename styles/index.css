@@ -1,3 +1,6 @@
+html {
+    -webkit-locale: "ru";
+}
 body {
     width: 100%;
     padding-top: 50px;
