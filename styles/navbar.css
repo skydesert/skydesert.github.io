@@ -5,7 +5,7 @@ nav {
     position: fixed;
     background-color: #333333;
 }
-nav .navcurrent {
+nav #navcurrent {
     color: white;
     font-weight: bold;
     display: inline-block;
@@ -16,6 +16,10 @@ nav .navcurrent {
     padding-right: 20px;
     text-decoration: none;
     background-color: grey;
+    transition: background-color 0.1s ease-out;
+}
+nav #navcurrent:active {
+    background-color: DimGray;
 }
 nav .navleft {
     color: white;
@@ -27,9 +31,13 @@ nav .navleft {
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
+    transition: background-color 0.1s ease-out;
 }
 nav .navleft:hover {
     background-color: grey;
+}
+nav .navleft:active {
+    background-color: DimGray;
 }
 
 nav .navright {
