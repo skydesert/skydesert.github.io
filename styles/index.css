@@ -12,6 +12,7 @@ body {
 }
 article {
     width: 56%;
+    padding: 10px;
     margin-left: 22%;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -27,9 +28,6 @@ article {
     height: 167px;
     margin-left: 22%;
     border-radius: 3px;
-}
-#ext {
-    padding: 10px;
 }
 
 @media screen and (max-width: 900px) {
