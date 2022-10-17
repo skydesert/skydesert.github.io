@@ -12,12 +12,15 @@ body {
 }
 article {
     width: 56%;
-    padding: 10px;
     margin-left: 22%;
+    margin-right: 22%;
     margin-top: 10px;
     margin-bottom: 10px;
     color: white;
     background-color: rgba(255,255,255,0.1);
+}
+p {
+    padding: 20px;
 }
 #mainheader {
     text-align: center;
