@@ -21,8 +21,9 @@ article {
     color: white;
     background-color: rgba(255,255,255,0.1);
 }
-p {
-    padding: 20px;
+article p {
+    padding-right: 20px;
+    padding-left: 20px;
 }
 #mainheader {
     text-align: center;
