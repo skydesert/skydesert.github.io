@@ -34,16 +34,17 @@ p {
 }
 
 .button_styled_link {
-    color: black;
+    color: white;
     font-weight: bold;
-    display: inline-block;
+    display: block;
     height: 35px;
     text-align: center;
+    margin: 10px;
     padding-top: 15px;
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
-    background-color: white;
+    background-color: #333333;
     transition: background-color 0.1s ease-out;
 }
 .button_styled_link:hover {
