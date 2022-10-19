@@ -16,6 +16,8 @@ article {
     margin-right: 22%;
     margin-top: 10px;
     margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: white;
     background-color: rgba(255,255,255,0.1);
 }
@@ -39,7 +41,8 @@ article p {
     font-weight: bold;
     display: block;
     text-align: center;
-    margin: 10px 10px 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 15px;
     text-decoration: none;
     background-color: #333333;
