@@ -33,6 +33,16 @@ p {
     border-radius: 3px;
 }
 
+.button_styled_link {
+    color: black;
+    font-weight: bold;
+    display: block;
+    height: 30px;
+    text-decoration: none;
+    background-color: white;
+    transition: background-color 0.1s ease-out;
+}
+
 @media screen and (max-width: 900px) {
     article {
         width: 80%;
