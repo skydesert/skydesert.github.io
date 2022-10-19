@@ -33,26 +33,6 @@ p {
     border-radius: 3px;
 }
 
-.button_styled_link {
-    color: black;
-    font-weight: bold;
-    display: inline-block;
-    height: 35px;
-    text-align: center;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    background-color: white;
-    transition: background-color 0.1s ease-out;
-}
-.button_styled_link:hover {
-    background-color: grey;
-}
-.button_styled_link:active {
-    background-color: DimGray;
-}
-
 @media screen and (max-width: 900px) {
     article {
         width: 80%;
