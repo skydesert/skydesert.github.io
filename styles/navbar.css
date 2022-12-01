@@ -61,6 +61,7 @@ nav #sidebar_open {
     visibility: hidden;
 }
 
+/*
 @media screen and (max-width: 1000px) {
     nav .navleft {
         display: none;
@@ -75,6 +76,7 @@ nav #sidebar_open {
         visibility: visible;
     }
 }
+*/
 
 #sidebar {
     top: 0px;
