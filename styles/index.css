@@ -4,7 +4,7 @@ html {
 body {
     width: 100%;
     padding-top: 50px;
-    background-image: url(https://quad58.github.io/sky-desert-website/images/background.png);
+    background-image: url(https://raw.githubusercontent.com/bad-code-org/sky-desert-website/main/images/background.png);
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
