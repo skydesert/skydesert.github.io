@@ -69,7 +69,8 @@ article p {
 #discord_widget iframe {
     width: 94%;
     height: 94%;
-    margin: auto;
+    margin-left: 3%;
+    margin-top: 3%;
 }
 
 @media screen and (max-width: 900px) {
