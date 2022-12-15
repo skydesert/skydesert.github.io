@@ -69,6 +69,13 @@ article p {
         display: flex;
     }
 }
+
+.aside_left {
+    right: 0;
+    top: 50px;
+    position: fixed;
+}
+
 @media screen and (max-width: 500px) {
     article {
         width: 94%;
@@ -82,10 +89,4 @@ article p {
     {
         display: none;
     }
-}
-
-.aside_left {
-    right: 0;
-    top: 50px;
-    position: fixed;
 }
