@@ -88,6 +88,13 @@ article p {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .aside_right
+    {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 500px) {
     article {
         width: 94%;
@@ -96,9 +103,5 @@ article p {
     #mainembed {
         width: 94%;
         margin-left: 3%;
-    }
-    .aside_right
-    {
-        display: none;
     }
 }
