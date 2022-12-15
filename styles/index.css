@@ -29,7 +29,7 @@ article p {
     text-align: center;
     color: white;
 }
-#mainembed {
+#sdembed {
     width: 56%;
     height: 167px;
     margin-left: 22%;
@@ -55,6 +55,23 @@ article p {
     background-color: DimGray;
 }
 
+.aside_right {
+    right: 0;
+    top: 50px;
+    max-width: 20%;
+    position: fixed;
+}
+
+#discord_widget {
+    width: 100%;
+    height: 500px;
+}
+#discord_widget iframe {
+    width: 96%;
+    height: 100%;
+    margin: auto;
+}
+
 @media screen and (max-width: 900px) {
     article {
         width: 80%;
@@ -68,12 +85,6 @@ article p {
     {
         display: flex;
     }
-}
-
-.aside_right {
-    right: 0;
-    top: 50px;
-    position: fixed;
 }
 
 @media screen and (max-width: 500px) {
