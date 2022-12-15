@@ -64,13 +64,13 @@ article p {
         width: 80%;
         margin-left: 10%;
     }
-    .aside_left
+    .aside_right
     {
         display: flex;
     }
 }
 
-.aside_left {
+.aside_right {
     right: 0;
     top: 50px;
     position: fixed;
@@ -85,7 +85,7 @@ article p {
         width: 94%;
         margin-left: 3%;
     }
-    .aside_left
+    .aside_right
     {
         display: none;
     }
