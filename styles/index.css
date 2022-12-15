@@ -64,6 +64,10 @@ article p {
         width: 80%;
         margin-left: 10%;
     }
+    .aside_left
+    {
+        display: flex;
+    }
 }
 @media screen and (max-width: 500px) {
     article {
@@ -74,4 +78,14 @@ article p {
         width: 94%;
         margin-left: 3%;
     }
+    .aside_left
+    {
+        display: none;
+    }
+}
+
+.aside_left {
+    right: 0;
+    top: 50px;
+    position: fixed;
 }
