@@ -11,22 +11,13 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-centerbg {
-    position: fixed;
-    top: 50px;
-    bottom: 0;
-    left: 22%;
-    right: 22%;
-    background-color: #33333333;
-}
-
 article {
     width: 56%;
     margin-left: 22%;
     margin-right: 22%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #00000000;
+    background-color: #33333333;
 }
 article p {
     color: white;
@@ -34,6 +25,9 @@ article p {
     padding-left: 20px;
 }
 #mainheader {
+    margin: 0;
+    padding-top: 0.67em;
+    padding-bottom: 0.67em;
     text-align: center;
     color: white;
 }
