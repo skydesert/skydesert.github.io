@@ -12,8 +12,8 @@ article {
     width: 56%;
     margin-left: 22%;
     margin-right: 22%;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 article p {
     padding-right: 20px;
