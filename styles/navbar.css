@@ -5,7 +5,7 @@ nav {
     position: fixed;
     background-color: #333333;
 }
-nav #nav_item_current {
+nav .nav_item_current {
     color: white;
     font-weight: bold;
     display: inline-block;
@@ -18,7 +18,7 @@ nav #nav_item_current {
     transition: background-color 0.1s ease-out;
     background-color: grey;
 }
-nav #nav_item_current:active {
+nav .nav_item_current:active {
     background-color: DimGray;
 }
 nav .nav_item {
@@ -41,7 +41,6 @@ nav .nav_item:active {
 }
 nav .nav_right_items_box {
     display: inline-block;
-    display: flex;
     justify-content: end;
 }
 
@@ -50,72 +49,4 @@ nav #sidebar_open {
     height: 100%;
     display: none;
     visibility: hidden;
-}
-
-/*
-@media screen and (max-width: 1000px) {
-    nav .navleft {
-        display: none;
-        visibility: hidden;
-    }
-    nav #navcurrent {
-        display: none;
-        visibility: hidden;
-    }
-    nav #sidebar_open {
-        display: inline-block;
-        visibility: visible;
-    }
-}
-*/
-
-#sidebar {
-    top: 0px;
-    left: -320px;
-    width: 320px;
-    height: 100%;
-    position: fixed;
-    background-color: #333333;
-    transition: left 0.1s ease-out;
-}
-#sidebar:target {
-    left: 0px;
-}
-#sidebar #sidebar_close {
-    display: block;
-}
-#sidebar #sidebar_close img {
-    transform: rotate(45deg);
-}
-#sidebar #sidebarcurrent {
-    color: white;
-    font-weight: bold;
-    display: block;
-    height: 35px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    background-color: grey;
-    transition: background-color 0.1s ease-out;
-}
-#sidebar .sidebaritem {
-    color: white;
-    font-weight: bold;
-    display: block;
-    height: 35px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: none;
-    transition: background-color 0.1s ease-out;
-}
-#sidebar .sidebaritem:hover {
-    background-color: grey;
-}
-#sidebar .sidebaritem:active {
-    background-color: DimGray;
-}
-#sidebar #sidebarcurrent:active {
-    background-color: DimGray;
 }
