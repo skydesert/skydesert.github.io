@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-center_block {
+.center_block {
     width: 56%;
     top: 50px;
     bottom: 0;
