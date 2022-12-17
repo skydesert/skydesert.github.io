@@ -15,9 +15,8 @@ centerbg {
     position: fixed;
     top: 50px;
     bottom: 0;
-    width: 56%;
-    margin-left: 22%;
-    margin-right: 22%;
+    left: 22%;
+    right: 22%;
     background-color: #33333333;
 }
 
