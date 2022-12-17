@@ -40,8 +40,8 @@ nav .nav_item:active {
     background-color: DimGray;
 }
 nav .nav_right_items_box {
-    top: 0px;
-    width: 100%;
+    top: 0;
+    right: 0;
     height: 50px;
     position: fixed;
     display: flex;
