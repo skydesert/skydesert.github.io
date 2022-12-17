@@ -41,6 +41,9 @@ nav .nav_item:active {
 }
 nav .nav_right_items_box {
     display: inline-block;
+}
+nav .nav_right_items_box div {
+    display: flex;
     justify-content: end;
 }
 
