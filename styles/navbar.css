@@ -5,7 +5,7 @@ nav {
     position: fixed;
     background-color: #333333;
 }
-nav #navcurrent {
+nav #nav_item_current {
     color: white;
     font-weight: bold;
     display: inline-block;
@@ -18,10 +18,10 @@ nav #navcurrent {
     background-color: grey;
     transition: background-color 0.1s ease-out;
 }
-nav #navcurrent:active {
+nav #nav_item_current:active {
     background-color: DimGray;
 }
-nav .navleft {
+nav .nav_item {
     color: white;
     font-weight: bold;
     display: inline-block;
@@ -33,25 +33,16 @@ nav .navleft {
     text-decoration: none;
     transition: background-color 0.1s ease-out;
 }
-nav .navleft:hover {
+nav .nav_item:hover {
     background-color: grey;
 }
-nav .navleft:active {
+nav .nav_item:active {
     background-color: DimGray;
 }
-
-nav .navright {
-    position: fixed;
-    right: 0px;
-    color: white;
+nav .nav_right_items_box {
     display: inline-block;
-    width: 60px;
-    height: 35px;
-    text-align: center;
-    padding-top: 15px;
-}
-nav .navright:hover {
-    color: silver;
+    display: flex;
+    justify-content: end;
 }
 
 nav #sidebar_open {

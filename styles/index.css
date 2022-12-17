@@ -4,9 +4,6 @@ html {
 body {
     width: 100%;
     padding-top: 50px;
-    background-image: url(https://bad-code-org.github.io/sky-desert-website/images/background.webp);
-    background-size: cover;
-    background-attachment: fixed;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +14,6 @@ article {
     margin-right: 22%;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #33333333;
 }
 article p {
     color: white;
@@ -30,7 +26,6 @@ article p {
     padding-bottom: 0.67em;
     text-align: center;
     color: white;
-    background-color: #33333333;
 }
 #sdembed {
     width: 56%;
@@ -74,37 +69,4 @@ article p {
     height: 94%;
     margin-left: 3%;
     margin-top: 3%;
-}
-
-@media screen and (max-width: 900px) {
-    article {
-        width: 80%;
-        margin-left: 10%;
-    }
-    #mainembed {
-        width: 80%;
-        margin-left: 10%;
-    }
-    .aside_right
-    {
-        display: flex;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .aside_right
-    {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    article {
-        width: 94%;
-        margin-left: 3%;
-    }
-    #mainembed {
-        width: 94%;
-        margin-left: 3%;
-    }
 }
