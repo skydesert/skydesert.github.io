@@ -15,8 +15,8 @@ nav #nav_item_current {
     padding-left: 20px;
     padding-right: 20px;
     text-decoration: none;
-    background-color: grey;
     transition: background-color 0.1s ease-out;
+    background-color: grey;
 }
 nav #nav_item_current:active {
     background-color: DimGray;
