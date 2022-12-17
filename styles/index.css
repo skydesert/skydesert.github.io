@@ -12,7 +12,10 @@ body {
 }
 
 centerbg {
-    
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    background-color: #33333333;
 }
 
 article {
@@ -24,6 +27,7 @@ article {
     background-color: #00000000;
 }
 article p {
+    color: white;
     padding-right: 20px;
     padding-left: 20px;
 }
