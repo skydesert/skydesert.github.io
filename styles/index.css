@@ -43,8 +43,6 @@ article p {
 #discord_widget {
     padding: 0;
     width: 100%;
-    background-color: #5865f2;
-    border-radius: 4px;
 }
 #discord_widget iframe {
     width: 100%;
