@@ -59,12 +59,24 @@ blink {
 @keyframes blink {  67% { opacity: 0 }}
 
 @media screen and (max-width: 1150px) {
+    article {
+        width: 78%;
+        margin-left: 11%;
+        margin-right: 11%;
+    }
     .aside_right {
         position: unset;
-        width: 56%;
-        margin-left: 22%;
-        margin-right: 22%;
+        width: 78%;
+        margin-left: 11%;
+        margin-right: 11%;
         margin-top: 10px;
         margin-bottom: 10px;
+    }
+    #sdembed {
+        width: 78%;
+        margin-left: 11%;
+        margin-right: 11%;
+        height: 167px;
+        border-radius: 4px;
     }
 }
