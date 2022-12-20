@@ -80,3 +80,25 @@ blink {
         border-radius: 4px;
     }
 }
+@media screen and (max-width: 450px) {
+    article {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .aside_right {
+        position: unset;
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    #sdembed {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+        height: 167px;
+        border-radius: 4px;
+    }
+}
