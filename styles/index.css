@@ -57,3 +57,14 @@ blink {
     animation: blink 1s step-end infinite;
 }
 @keyframes blink {  67% { opacity: 0 }}
+
+@media screen and (min-width: 1150px) {
+    .aside_right {
+        position: unset;
+        width: 56%;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
