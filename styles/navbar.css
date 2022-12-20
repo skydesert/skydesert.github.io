@@ -4,6 +4,7 @@ nav {
     height: 50px;
     position: fixed;
     background-color: #333333;
+    transition: left 0.1s ease-out;
 }
 nav .nav_item_current {
     color: white;
@@ -46,4 +47,31 @@ nav .nav_right_items_box {
     position: fixed;
     display: flex;
     justify-content: end;
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        left: -360px;
+        width: 360px;
+        height: 100%;
+        position: fixed;
+    }
+    nav:target {
+        left: 0px;
+    }
+    nav .nav_item_current {
+        display: block;
+        height: 35px;
+        text-align: left;
+    }
+    nav .nav_item {
+        display: block;
+        height: 35px;
+        text-align: left;
+    }
+    nav .nav_right_items_box {
+        height: 50px;
+        position: unset;
+        display: block;
+    }
 }
