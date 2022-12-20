@@ -59,6 +59,11 @@ blink {
 @keyframes blink {  67% { opacity: 0 }}
 
 @media screen and (max-width: 1150px) {
+    header p {
+        width: 78%;
+        margin-left: 11%;
+        margin-right: 11%;
+    }
     article {
         width: 78%;
         margin-left: 11%;
@@ -81,6 +86,11 @@ blink {
     }
 }
 @media screen and (max-width: 450px) {
+    header p {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
     article {
         width: 98%;
         margin-left: 1%;
