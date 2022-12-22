@@ -13,6 +13,10 @@ nav {
     position: fixed;
     background-color: #333333;
 }
+.fakenavbar a img {
+    width: 50px;
+    height: 50px;
+}
 nav .nav_item_current {
     color: white;
     font-weight: bold;
@@ -51,11 +55,8 @@ nav .nav_close_button {
     display: none;
     color: white;
     font-weight: bold;
-    height: 35px;
+    height: 50px;
     text-align: left;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
     text-decoration: none;
     transition: background-color 0.1s ease-out;
 }
@@ -64,6 +65,12 @@ nav .nav_close_button:hover {
 }
 nav .nav_close_button:active {
     background-color: DimGray;
+}
+nav .nav_close_button img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
 }
 nav .nav_right_items_box {
     top: 0;
