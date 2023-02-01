@@ -53,6 +53,7 @@ nav .nav_item:active {
 nav .nav_item img {
     display: inline-block;
     height: 16px;
+    margin-right: 2px;
     vertical-align: text-bottom;
 }
 nav .nav_item div {
