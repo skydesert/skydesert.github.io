@@ -50,6 +50,13 @@ nav .nav_item:hover {
 nav .nav_item:active {
     background-color: #ffffff60;
 }
+nav .nav_item img {
+    display: inline-block;
+    height: 16px;
+}
+nav .nav_item div {
+    display: inline-block;
+}
 nav .nav_close_button {
     display: none;
     color: white;
