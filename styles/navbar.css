@@ -52,7 +52,7 @@ nav .nav_item:active {
 }
 nav .nav_item img {
     display: inline-block;
-    height: 16px;
+    height: 60%;
 }
 nav .nav_item div {
     display: inline-block;
