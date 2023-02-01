@@ -83,7 +83,6 @@ nav .nav_close_button img {
 nav .nav_right_items_box {
     top: 0;
     right: 0;
-    height: 50px;
     position: fixed;
     display: flex;
     justify-content: end;
@@ -113,8 +112,10 @@ nav .nav_right_items_box {
         text-align: left;
     }
     nav .nav_right_items_box {
-        height: 50px;
-        position: unset;
+        position: absolute;
         display: block;
+        left: 0;
+        top: auto;
+        bottom: 0;
     }
 }
