@@ -121,6 +121,13 @@ blink {
         border-radius: 4px;
     }
 }
+@media screen and (max-width: 800px) {
+    footer {
+        position: unset;
+        width: auto;
+        backdrop-filter: none;
+    }
+}
 @media screen and (max-width: 450px) {
     header p {
         width: 98%;
