@@ -19,6 +19,8 @@ a:active {
 }
 
 header {
+    margin: 0;
+    padding-bottom: 0.67em;
     text-align: center;
 }
 
