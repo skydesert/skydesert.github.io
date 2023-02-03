@@ -20,6 +20,7 @@ body {
     height: 50px;
 }
 nav .nav_item_current {
+    color: white;
     font-weight: bold;
     display: inline-block;
     height: 35px;
@@ -35,6 +36,7 @@ nav .nav_item_current:active {
     background-color: #ffffff60;
 }
 nav .nav_item {
+    color: white;
     font-weight: bold;
     display: inline-block;
     height: 35px;
