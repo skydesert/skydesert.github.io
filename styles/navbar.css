@@ -6,6 +6,9 @@ nav {
     backdrop-filter: blur(32px);
     transition: left 0.1s ease-out;
 }
+body {
+    padding-top: 50px;
+}
 .fakenavbar {
     top: 0px;
     width: 100%;
