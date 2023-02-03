@@ -77,7 +77,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    backdrop-filter: blur(64px);
+    backdrop-filter: blur(32px);
     padding: 20px;
 }
 footer p {
