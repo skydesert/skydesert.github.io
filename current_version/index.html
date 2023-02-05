@@ -14,11 +14,13 @@
                 <p>
                     Version: 
                     <script type="text/javascript" language="JavaScript" defer>
-                        var client = new XMLHttpRequest();
-                        client.open('GET', 'version.txt');
-                        client.onreadystatechange = function() {
-                            document.write(client.responseText);
+                        var request = new XMLHttpRequest();
+                        request.open('GET', 'version.txt');
+                        request.onreadystatechange = function() {
+                            alert(request.responseText);
+                            document.write(request.responseText);
                         }
+                        request.send();
                     </script>
                 </p>
             </article>
