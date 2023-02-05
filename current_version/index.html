@@ -5,40 +5,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sky Desert - Curent version</title>
         <script type="text/javascript" language="JavaScript" defer>
-            var version = new XMLHttpRequest();
-            version.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/version.txt');
-            version.onreadystatechange = function() {
-                document.getElementById('version').innerHTML = version.responseText;
+            var cl_sversion = new XMLHttpRequest();
+            cl_sversion.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/version.txt');
+            cl_sversion.onreadystatechange = function() {
+                document.getElementById('version').innerHTML = cl_sversion.responseText;
             }
-            version.send();
+            cl_sversion.send();
             
-            var build = new XMLHttpRequest();
-            build.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/build.txt');
-            build.onreadystatechange = function() {
-                document.getElementById('build').innerHTML = build.responseText;
+            var cl_sbuild = new XMLHttpRequest();
+            cl_sbuild.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/build.txt');
+            cl_sbuild.onreadystatechange = function() {
+                document.getElementById('build').innerHTML = cl_sbuild.responseText;
             }
-            build.send();
+            cl_sbuild.send();
             
-            var status = new XMLHttpRequest();
-            status.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/status.txt');
-            status.onreadystatechange = function() {
-                document.getElementById('status').innerHTML = status.responseText;
+            var cl_status = new XMLHttpRequest();
+            cl_status.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/status.txt');
+            cl_status.onreadystatechange = function() {
+                document.getElementById('status').innerHTML = cl_status.responseText;
             }
-            status.send();
+            cl_status.send();
 
-            var stage = new XMLHttpRequest();
-            stage.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/stage.txt');
-            stage.onreadystatechange = function() {
-                document.getElementById('stage').innerHTML = stage.responseText;
+            var cl_sstage = new XMLHttpRequest();
+            cl_sstage.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/stage.txt');
+            cl_sstage.onreadystatechange = function() {
+                document.getElementById('stage').innerHTML = cl_sstage.responseText;
             }
-            stage.send();
+            cl_sstage.send();
             
-            var description = new XMLHttpRequest();
-            description.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/description.txt');
-            description.onreadystatechange = function() {
-                document.getElementById('description').innerHTML = description.responseText;
+            var cl_sdescription = new XMLHttpRequest();
+            cl_sdescription.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/description.txt');
+            cl_sdescription.onreadystatechange = function() {
+                document.getElementById('description').innerHTML = cl_sdescription.responseText;
             }
-            description.send();
+            cl_sdescription.send();
         </script>
     </head>
     <body>
