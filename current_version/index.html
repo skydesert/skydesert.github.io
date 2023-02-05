@@ -4,6 +4,15 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sky Desert - Curent version</title>
+        <script type="text/javascript" language="JavaScript" defer>
+            var client = new XMLHttpRequest();
+            client.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/version.txt');
+            client.onreadystatechange = function() {
+                var node = document.getElementById('version');
+                node.innerHTML(client.responseText);
+            }
+            client.send();
+        </script>
     </head>
     <body>
         <header>
@@ -12,16 +21,19 @@
         <main>
             <article>
                 <p>
-                    Version: 
-                    <script type="text/javascript" language="JavaScript" defer>
-                        var request = new XMLHttpRequest();
-                        request.open('GET', 'https://bad-code-org.github.io/sky-desert-website/current_version/version.txt');
-                        request.onreadystatechange = function() {
-                            alert(request.responseText);
-                            document.write(request.responseText);
-                        }
-                        request.send();
-                    </script>
+                    Version: <span id="version"></span>
+                </p>
+                <p>
+                    Build: <span id="build"></span>
+                </p>
+                <p>
+                    Status: <span id="status"></span>
+                </p>
+                <p>
+                    Stage: <span id="stage"></span>
+                </p>
+                <p>
+                    Description: <span id="description"></span>
                 </p>
             </article>
         </main>
