@@ -1,2 +1,3 @@
 # sky-desert-website
-Sky Desert Website
+Официальный русскоязычный веб-сайт Sky Desert
+[Главная](https://bad-code-org.github.io/sky-desert-website/)
