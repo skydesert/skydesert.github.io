@@ -91,6 +91,11 @@ nav .nav_right_items_box {
     justify-content: end;
 }
 
+@media screen and (min-width: 800px) {
+    .fakenavbar {
+        display: none;
+    }
+}
 @media screen and (max-width: 800px) {
     nav {
         left: -360px;
