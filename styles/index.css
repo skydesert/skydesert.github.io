@@ -30,6 +30,19 @@ article section p {
     padding-left: 20px;
 }
 
+article table tr td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+article table {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 1px solid white;
+}
+
 #sdembed {
     width: 56%;
     height: 167px;
