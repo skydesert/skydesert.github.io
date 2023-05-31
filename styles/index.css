@@ -41,6 +41,7 @@ article table {
     padding-top: 5px;
     padding-bottom: 5px;
     border: 1px solid white;
+    backdrop-filter: blur(32px);
 }
 
 .system_requirements_tables_parent {
