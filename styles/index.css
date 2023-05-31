@@ -43,6 +43,10 @@ article table {
     border: 1px solid white;
 }
 
+.system_requirements_tables_parent {
+    display: flex;
+}
+
 #sdembed {
     width: 56%;
     height: 167px;
