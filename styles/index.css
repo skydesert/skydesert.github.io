@@ -42,10 +42,14 @@ article table {
     padding-bottom: 5px;
     border: 1px solid white;
     backdrop-filter: blur(32px);
+    width: 100%;
 }
 
 .system_requirements_tables_parent {
     display: flex;
+}
+.system_requirements_tables_parent div {
+    width: 50%;
 }
 
 #sdembed {
