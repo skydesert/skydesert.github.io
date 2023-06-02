@@ -45,13 +45,6 @@ article table {
     width: 100%;
 }
 
-.system_requirements_tables_parent {
-    display: flex;
-}
-.system_requirements_tables_parent div {
-    width: 50%;
-}
-
 #sdembed {
     width: 56%;
     height: 167px;
@@ -172,5 +165,17 @@ blink {
         margin-right: 1%;
         height: 167px;
         border-radius: 4px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .system_requirements_tables_parent {
+        display: flex;
+    }
+    .system_requirements_tables_parent div {
+        width: 50%;
+    }
+    .system_requirements_tables_parent .system_requirements_table2_parent {
+        margin-left: 5px;
     }
 }
